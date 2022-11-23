@@ -1,6 +1,6 @@
-import {useState, useEffect} from "react"
-import Layout from "../components/Layout";
-import SubLayout from "../components/SubLayout";
+import { useState, useEffect } from 'react'
+import Layout from '../components/Layout'
+import SubLayout from '../components/SubLayout'
 
 export default function CSR() {
   const [time, setTime] = useState()
@@ -13,9 +13,7 @@ export default function CSR() {
   return (
     <>
       <main>
-        <h1 className="title">
-          {time}
-        </h1>
+        <h1 className="title">{time}</h1>
       </main>
     </>
   )
