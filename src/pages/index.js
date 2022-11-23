@@ -12,7 +12,7 @@ export default function Home({ time }) {
   return (
     <>
       <h1 className="title">
-        {time}
+        !!!{time}
       </h1>
       <h1><Link href="/csr">csr</Link></h1>
       <h1><Link href="/ssg">ssg</Link></h1>
