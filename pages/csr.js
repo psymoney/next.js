@@ -21,3 +21,10 @@ export default function CSR() {
   )
 }
 
+CSR.getLayout = function getLayout(page) {
+  return (
+    <Layout>
+      <SubLayout>{page}</SubLayout>
+    </Layout>
+  )
+}
